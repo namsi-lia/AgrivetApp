@@ -1,0 +1,836 @@
+<resources>
+    <string-array name="policies">
+        <item name="policy1">Agriculture Policy in Kenya 2021 </item>
+
+        <item name = "policy2"> Improved Technologies for Maize Farming </item>
+
+        <item name = "policy3"> Kenya Agricultural and Livestock Research Organization </item>
+
+        <item name = "policy4"> Market Prices for Commodities </item>
+
+        <item name = "policy5"> Weather </item>
+
+        <item name = "policy6"> National Food Safety Mission </item>
+
+        <item name = "policy7"> Claim rules of crop insurance </item>
+
+<!--        <item name = "policy8"> Farmers will get 3 lakh loan at 7% interest </item>-->
+
+    </string-array>
+
+    <string-array name="policies_link">
+
+        <item name="link1">https://kilimo.go.ke/ministry-policies/</item>
+
+        <item name="link2">https://www.intechopen.com/books/maize-production-and-use/improved-technologies-for-higher-maize-production</item>
+        //
+
+        <item name="link3">https://www.kalro.org/</item>
+
+        <item name="link4"> https://www.indexmundi.com/commodities/?commodity=corn </item>//
+
+        <item name="link5"> https://www.bbc.com/weather/184745</item>
+
+        <item name="link6">https://www.gktoday.in/gk/national-food-security-mission/#:~:text=National%20Food%20Security%20Mission%20(NFSM,food%20security%20of%20the%20country.</item> //
+
+        <item name="link7">http://kisanhelp.in/government-policies/%E0%A4%AB%E0%A4%B8%E0%A4%B2-%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE-%E0%A4%95%E0%A4%BE-%E0%A4%95%E0%A5%8D%E0%A4%B2%E0%A5%87%E0%A4%AE-%E0%A4%95%E0%A5%87-%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE</item>
+        //
+
+<!--        <item name="link8">http://kisanhelp.in/government-policies/%E0%A4%95%E0%A4%BF%E0%A4%B8%E0%A4%BE%E0%A4%A8%E0%A5%8B%E0%A4%82-%E0%A4%95%E0%A5%8B-7-%E0%A4%AC%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%9C-%E0%A4%AA%E0%A4%B0-%E0%A4%AE%E0%A4%BF%E0%A4%B2%E0%A5%87%E0%A4%97%E0%A4%BE-3-%E0%A4%B2%E0%A4%BE%E0%A4%96-%E0%A4%95%E0%A4%BE-%E0%A4%B2%E0%A5%8B%E0%A4%A8</item>-->
+<!--        //-->
+
+    </string-array>
+
+
+    <string name="app_name">FarmersAid.KE</string>
+
+    <string name="policy_title">Government Schemes and Important Links</string>
+
+    <string name="about">About Application</string>
+    <string name="about_text">This app is made for the ease of farmers to learn and use this app for their problems.\n</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Call Kitale Help Centre</string>
+    <string name="title_activity_bazar__rate__select">Bazar_Rate_Select</string>
+
+    <string name="crop_production_card_title_en">Crop Production Methods</string>
+<!--    <string name="crop_production_card_title_hi">खेती की उन्‍नत विधियां</string>-->
+
+    <string name="treatment_card_title_en">Crop Treatment Method</string>
+<!--    <string name="treatment_card_title_hi">प्रमुख समस्याएं एवं निवारण</string>-->
+
+    <string name="storage_card_title_en">Soil Health Card </string>
+<!--    <string name="storage_card_title_hi">मृदा स्वास्थ्य कार्डं</string>-->
+
+    <string name="survey_card_title_en"> Production Details</string>
+<!--    <string name="survey_card_title_hi">उत्पादन का विवरण </string>-->
+
+    <string name="horticulture_card_title_en">Horticulture Methods</string>
+<!--    <string name="horticulture_card_title_hi">बागवानी की उन्‍नत विधियां</string>-->
+
+    <string name="policy_card_title_en">Government Schemes and Important Links</string>
+
+    <string name="chatbot_en"> Chatbot  </string>
+
+<!--    <string name="policy_card_title_hi"> सरकार की योजनाएं  </string>-->
+
+<!--    <string name="chatbot_hi"> चैटबॉट  </string>-->
+
+    <string name="horticulture_item1_en">Mango</string>
+
+    <string name="horticulture_item2_en">Banana</string>
+
+
+    <string name="horticulture_item3_en">Guava</string>
+
+
+    <string name="wheat_h1">1.History of crop</string>
+    <string name="wheat_h2">2.Suitable Climate Zones</string>
+    <string name="wheat_h3">3.Land Selection</string>
+    <string name="wheat_h4">4.Field Preparation</string>
+    <string name="wheat_h5">5.Major improved varieties of Maize</string>
+    <string name="wheat_h6">6.Seed Treatment</string>
+    <string name="wheat_h7">7.Sowing Time</string>
+    <string name="wheat_h8">8.Seed rate and Plant Transfer</string>
+    <string name="wheat_h9">9.Seeding Depth</string>
+    <string name="wheat_h10">10.Methods of sowing</string>
+    <string name="wheat_h11">11.Manure and fertilizer</string>
+    <string name="wheat_h12">12.Irrigation </string>
+    <string name = "wheat_h13">13. harvesting / string </string>
+    <string name = "wheat_h14">14. Yield and storage </string>
+
+<!--    <string name="crop1_hi">गेंहू की उन्नत खेती </string>-->
+<!--    <string name="crop2_hi">धान अर्थात चावल की खेती </string>-->
+<!--    <string name="crop3_hi">अरहर की खेती </string>-->
+    <string name="crop1_en">Maize Production Methods</string>
+    <string name="crop2_en">Rice Production Methods</string>
+    <string name="crop3_en">Toor Production Methods</string>
+
+    <string name="wh1">
+       Maize is cultivated in almost every part of the world.&#xD; Maize is cultivated on 23 percent of the worlds total land.&#xA;
+        Maize is a crop of worldwide importance. Paddy is cultivated mainly in Asia, yet maize is grown in all the peninsulas of the world.
+        The major three maize growing nations in the world are India, Russian Federation and the United States.
+        After China, India and America are ranked second in maize production.
+    </string>
+
+
+    <string name="wh2">
+        Maize is mainly a cool and dry climate crop, so from 20 to 22d at the time of sowing the crop, at the time of growing.
+        The optimum temperature is 25°C and at the time of cooking 14 to 15°C is good over temperature.
+        The crop ripens quickly and the yield decreases. Palp causes a lot of damage to the crop raised at the time of earring.
+        There is a flood of leaves and buds in six days.  There are more whereas, as the days go by, Bali starts coming out from 60-100 for its cultivation. M Annual
+        Rainy areas are suitable.
+    </string>
+
+    <string name="wh3">
+       Maize can be grown in all types of agricultural land, but from loam to heavy loam. Maize cultivation in alluvial soil
+        can be successfully done with good drainage facility, its good crop is also available in Mattiar loam and black soil.
+        Can be taken. The need for irrigation for maize cultivation in the black cotton soil is less.
+    </string>
+
+    <string name="wh4">
+        For better germination, a better earthy soil is required. Timely plowing to conserve moisture in the field
+        Is also required. In fact, while preparing the field, our goal should be to free the weeds at the time of sowing.
+        So, the soil should have enough moisture and the soil should be so brittle so that the sowing is easily at the proper depth and equal distance
+        Can be done. After plowing the Kharif crop, the first plowing of the field should be done with a soil-reversing plow (MB Plow).
+        Due to which the kharif crop residues and weeds get buried in the soil. After this, 2-3 jutees as required
+        Solution: Should be done with a bakhar or cultivator. The field should be leveled after each plowing.
+    </string>
+
+    <string name="wh5">
+        1.Sonalika: This anti-ocher, Amber Rug variety. It is cooked and ready in 110 days. late
+        Suitable for sowing. After paddy is harvested, the land can be sown after preparation. Its yield is 30 to 35 quintal
+        Per hectare.
+
+        2.Sonalika: This anti-ocher, Amber Rug variety. It is cooked and ready in 110 days. late
+        Suitable for sowing. After paddy is harvested, the land can be sown after preparation. Its yield is 30 to 35 quintal
+        Per hectare.
+
+        3.Narmada 112: This is the Pisia (Sarabati) variety which is black and brown ocher curb. Irrigated and limited irrigation areas
+        Suitable for trow. Its ripening time is 120 - 135 days. It yields 14 - 16 quintals per hectare.
+        Its granule Sarabati is shiny and large. It is specially suitable for making chapati.
+
+        4. Malavasri (HI-8381): This is the best variety in the category of Kathia maize. Its plants are dwarf (85 - 90 cm tall),
+        The hair color of earrings is black. This variety gives better production in 4-5 irrigation. Of its 1000 grains
+        Weight is 50 - 55 grams and yield capacity is 50 - 60 quintals per hectare.
+
+    </string>
+
+    <string name="wh6">
+        The seed that is used for sowing is disease free, certified and sector-specific for improved varieties.
+        Should be of For prevention of diseases other than 4 grams of Trichoderma with 1 gram of Carbendazim per kg
+        Seed treatment can be done at the rate of seed.
+    </string>
+
+    <string name="wh7">
+        Maize is a rabi crop that is grown in the winter season. Life span of maize in different parts of India
+        It varies. Normally maize is sown from October to December and harvested
+        It is done from February to May. Varieties whose duration is 135 - 140 days are given to them in the first fortnight of November.
+        And which takes 120 days to cook,They should be sown from 15 - 30 November.
+        The appropriate sowing time in the non-irrigated stage is around mid-October as the rainy season ends.
+        The best time to sow irrigated maize is the first fortnight of November. Bonnie should not be delayed beyond 30 November.
+    </string>
+
+    <string name="wh8">
+        The seed rate depends on the amount of moisture in the soil, method of planting and variety. Quantity of seed for sowing maize cultivation
+        It is more than the native maize. 100-120 kg for sowing maize. Per hectare and for indigenous maize
+        70-90 kg Seeds grow at the rate of per hectare. The quantity of seed for irrigated maize is 100 kg per hectare and
+        The distance between the queues is 22 - 23 cm. M Should be Seed rates in timely irrigated maize
+        100 - 125 kg per hectare and distance of rows from 20-22.5M Should be kept. Late irrigated maize sowing
+        Seed rate for 125 - 150 km G 15 - 18 per hectare and between rows. M It is advisable to keep the transfer of
+        Sowing the seeds overnight in water is beneficial.
+    </string>
+
+    <string name="wh9">
+         Depth has a special significance in the sowing of dwarf maize, because in dwarf varieties the length of the primordium is 4 - 5. M it occurs.
+        Therefore, if they are sown deep, germination is very low. Dwarf varieties of maize are 3-5 cm long. Is kept
+        In native (tall) varieties, the length of prankurchol is about 7 cm. It is Therefore, their seeding depth is 5-7 cm. Should be kept
+    </string>
+
+    <string name = "wh10">
+        1. Sprinkler method: In this method, the seeds are sprinkled evenly by hand in the field and by running the pata or native plow
+        The seed is covered with soil. In this method maize is sown in those places where there is excess rain or heavy soil
+        Due to the loam, the moisture remains relatively longer. The maize sown by this method cannot germinate properly, the plants
+        Grows in a haphazard manner, seeds are found in large quantities and weeding - discomfort due to plant growth
+        But due to the simple method, farmers adopt it more.
+
+        2. Sowing by seed drill: This is an improved form of Pora method. It is easy to sow in wide area and
+        Cheaper way. In this, sowing is done by bullock or tractor driven seed mower. In this machine, plant transfer and
+        The seed rate can be adjusted at will. This method also reduces seed and sowing distance and
+        It is able to grow evenly at depth, which leads to good germination. This method takes less time to sow.
+
+    </string>
+
+    <string name="wh11">
+       The quantity of fertilizers and fertilizers depends on factors like maize variety, irrigation facilities, method of planting etc.
+        To take at least 35-40 quintal of cow dung in the ground, well rotten manure 50 kg of neem cake
+        And 50 kg castor cake etc. mixed all these fertilizers well before sowing in the field, equal amount of this mixture
+        Sprinkle in it, after this, prepare the field by plowing well in the field and then sow after it.
+
+         Pre-sown soil at the time of plowing by spreading composted dung manure or compost at the rate of 10-15 tons per hectare in the field
+        Should be mixed in sugar. Nitrogen, phosphorus, and potash are main in chemical fertilizers. In irrigated maize (dwarf varieties)
+        At the rate of 125 kg of nitrogen, 50 kg of spur and 40 kg of potash per hectare as the base quantity at the time of sowing
+        Should be given 60:30:30 kg in native varieties. Fertilizer should be given in the ratio of per hectare. Indigenous varieties of unirrigated maize
+        Solved 40 kg of nitrogen, 30 kg of spur and 20 kg of potash per hectare as the base quantity.
+        Should be given at the bottom In dwarf varieties, 60:40:30 ratio of forts in nitrogen, sphur and potash sowing time
+        Has been found to be beneficial.
+    </string>
+
+    <string name = "wh12">
+        1. First irrigation should be done at the peak root growth stage ie 20 to 25 days after sowing. In long varieties
+        The first irrigation is usually done about 30-35 days after sowing.
+
+        2. Second irrigation tillering stage, ie, about 40-50 days after sowing.
+
+        3 rd irrigation Sushant stage i.e. about 60-70 days after sowing.
+
+        4. Fourth irrigated flowering stage ie 80-90 days after sowing.
+
+        5. 100-120 days after the formation of milk and a lax condition ie sowing.
+
+        It is best to give 4-6 irrigations to dwarf maize if adequate irrigation is available. If the soil is very light or loamy
+        Additional 2-3 irrigations may be required.
+
+        If only two irrigation facilities are available, then the first irrigation is 20-25 days after sowing (top root initiation stage).
+        And second irrigation should be done 80-90 days after sowing at the time of flowering. If water is available for three irrigations then first
+        Irrigation at peak root growth stage (20–22 days after sowing), formation of bales in second stem (60–70 days after sowing) and
+        The third donation should be done at the time of weaning (100-120 days later).
+    </string>
+
+    <string name = "wh13">
+         When the grains of maize are ripened and hardened and the moisture content in them reaches 20-25 percent, the crop should be harvested.
+        Harvesting is done by laughing. Bona variety should not be left in the field after cooking, due to delay in harvesting,
+        The rash begins to fall and there is a possibility of damage by birds. Threshing the crop 2-3 days after harvesting
+        Drying is done with power driven thresher. Harvesting, Mowing and Osai using Combine Harvester
+        It comes together but to harvest from the combine harvester, the seeds should not have more than 20 percent moisture,
+        Because if there is excess moisture in the Dano, the potting or threshing will not happen properly.
+    </string>
+
+    <string name = "wh14">
+        About irrigated maize dwarf varieties in irrigated state on cultivation with advanced crop technology
+        Apart from 50-60 quintal grain, 80-90 quintal of straw / ha is obtained.
+        While about half of its yield is obtained from indigenous long varieties.
+        Indigenous varieties yield 15-20 quintal / ha in unirrigated condition. Safe
+        The grains should not contain more than 10-12% moisture for storage.
+
+    </string>
+
+
+    <string name="ph1"> Paddy has an important place in food grains and most of the world\'s population rice in daily food
+        Uses only. Rice is the identity of our culture. There is no puja and no tilak on the forehead.
+        Rice is the main food item of about 65 percent of the country\'s population. China, Japan, India, Indochina, Korea, Thailand, Pakistan
+        And Sri Lanka is the major paddy growing country. Paddy is cultivated in almost all the states in India but in the major producing states, Andhra Pradesh,
+        Assam, Bihar, Maharashtra, Chhattisgarh, Odisha, West Bengal, Uttar Pradesh. </string>
+
+    <string name = "ph2"> Paddy is a tropical and subtropical climate crop. Paddy yield is high in hot temperate regions.
+        Paddy crop requires more water with higher temperature and higher humidity throughout life.
+        Water has a deep connection. Where there is more rainfall, the area of ​​paddy is more. For good crop growth
+        Gray from 25 to 30 degrees and gray from 21-25 degrees for cooking.
+        Temperatures are required. </string>
+
+
+    <string name = "ph3"> Heavy loam land has been found best for paddy cultivation. Its cultivation ranges from mild acidic soil
+        Alkaline (pH 4.5 to 8.0) can be done in soil. In Chhattisgarh, there are mainly four types of land reflux, Matasi, Dorsa,
+        And Kanhar are found. Matasi land is heavier than reflux and lighter than Dorsa land and suitable for paddy cultivation.
+        it occurs. Dorsa land falls in the category between Matasi and Kanhar land on the basis of color and properties. </string>
+
+    <string name = "ph4"> It is said in the Rig Veda that yo na bapteh bijam means that seeds should be sown in the field prepared,
+        So that a lot of food is produced. The field is well prepared with the help of various tools before growing the crop
+        So that the fields should be weed free. Preparation of paddy field depends on the method of sowing by dry and wet system.
+        For the preparation of the field in the dry system, plow the field with a soil-reversing plow immediately after harvest. After that
+        Cultivate water when it rains In this way the physical condition of the land becomes paddy-worthy. Dung manure, compost or green
+        The manure should be mixed well in the field at the time of initial plowing before sowing. </string>
+
+
+    <string name="ph5">Varieties suitable for irrigated conditions
+            IR-36, Abhaya, IR-64, Pusa Basmati-1, Kranti, Swarna.
+            Mahamaya, Bamleshwari, Madhuri, Sali vehicles etc.
+            Varieties recommended for non-irrigated lowland
+    Light land Abhaya 120-125 32-35 Dwarf, Gangai and Blast disease resistant, long grain.
+         Revolution 125-130 42-45 For Dwarf, Poha and Murmura, Fat granule
+          Mahamaya 125-130 47-55 Gangai Resistant for Poha
+    Heavy Land Safari -17 140-145 40-42 High, Fine Granule
+        Mussoorie 140-145 38-40 High, medium fine granule
+         Bamleshwari 135–140 46–50 Dwarf, coarse grains.
+        Swarna 140-150 44-45 Dwarf, Medium Grain </string>
+
+
+    <string name = "ph6"> June Mid July Till first week is the best time for paddy sowing.
+        Delay in outbreak of insect diseases and yield decline. Seed irrigation available in nursery for transplanting
+        But it should be done in the first week of June because transplanting from the third week of June to the middle of July gives good yield.
+        Is obtained. Lehi method saves 6-7 days of paddy germination, so if it is delayed, it should be sown in Lehi method.
+        Can. </string>
+
+
+    <string name = "ph7"> Both farm and seed have important place for good yield. Selected varieties certified
+        Get seed from a trusted organization. Once certified seeds need to be changed for 3 years after sowing.
+        Germination should be 80-90 percent in seeds and should be disease free. Seed transplanting method
+        30-40 kg, 100-120 for Sprinkler and Bias method and 90-100 in line sowing and 30-40 kg per hectare in Lehi method.
+        Used at the rate of. There is no need to treat salt solution by using certified seeds. </string>
+
+
+    <string name = "ph8"> It is necessary to treat the seed before planting or planting in the field. Salt to seed first
+        Add to the batter. For this, 10 liters make 1.6 kg of normal salt solution in water and by adding seeds in this solution
+        Is moved. For the prevention of bacterial diseases, by dipping the seeds in a solution of 00.02 percent strepto cyclin
+        Curing is beneficial</string>
+
+    <string name="ph9">Planting preparation
+
+            1. After plowing the field 2-3 times, fry the soil and mix dung manure or compost before the last plowing of 20 cartons (@ 10 tonnes per hectare).
+
+            2. Flatten the field about one to one and a half meters wide, ten to fifteen centimeters high and make long beds as needed. 1000 square meters of Ropani is enough for one hectare area.
+
+            3. Irrigation and drainage drains should be made at Ropani according to the slope of the field.
+
+            4. In prepared beds, sow seeds of 40 grams finely paddy or 50 grams thick paddy per meter after seed treatment in rows of 10 cm distance, 2-3 cm deep. For an area of ​​one hectare, 40-50 kg of seed is sufficient. If the germination is less than 80 percent then increase the seed rate in the same proportion. After sowing in the beds, cover the seed with a light layer of soil.
+
+            5. Mix 10 grams of ammonium sulfate or 5 grams of urea in the nursery per square meter.
+
+            6. Do not allow water to accumulate in the nursery, but always keep the soil of the seedlings moist.
+
+            7. If the plants appear yellow due to lack of nitrogen in the plant, then give 15 to 30 grams of ammonium sulfate or 7 to 15 grams of urea per square meter.
+
+            8. If there is a possibility of delay in transplanting, do not use the top dressing of the nitrogen in nursery.
+
+            9. Spray plant protection medicines when needed. If there is a deficiency of sulfur or zinc in the nursery, fill them as recommended.
+
+            10. At the time of transplanting, remove the tremor and dip the roots of the plants in water. Transplanting is appropriate only on the day of transplanting.
+
+            11. If there are weeds in the rope, use only the nitrogenous after removing them.
+
+</string>
+
+
+    <string name = "ph10">
+        Transplantation of paddy
+
+        1. If green manure has been applied, stir the green manure well by stirring it in the soil before 6-8 days before transplanting. If the field is high, then flatten it by rolling the ground. At the same time, provide the base quantity of fertilizers.
+
+        2. Make the field well before planting. If the field is high, then flatten it by rolling the ground. At the same time, provide the base quantity of fertilizers.
+
+        3. In general, the age of paddy planting should be 20 to 30 days. Transplanting of early maturing paddy should be done within 20 to 25 days. The middle or late ripening varieties have a suitable age of 25 to 30 days.
+
+        4. Transplanting is done on the second day of planting. If the fields are overflowing at the time of transplanting, drain excess water.
+
+        5. While transplanting, plant 2 to 3 saplings at one place (hill). The plant is always straight and 2-3 cm. Deep attachments. Distance between queues and plants is 15 c 10 or 15 c 15 cm. For quick ripening varieties and 20 c 10 cm. Should be kept for medium and late maturing species. 20 c 15 cm where Tauchi gurm (weeder) is to be used. It would be appropriate to keep a distance of
+
+        6. If the plant is older than 30 days, increase the number of plants by transplanting intensively. Use 10 percent more nitrogen than the prescribed quantity.
+
+        7. Around 30 cm after every 3 to 4 meters. Keep the path of the work for harvest.
+
+        8. Rabi crops can also be taken in the soil moisture accumulated after paddy by using medium duration varieties of paddy.
+    </string>
+
+
+    <string name="ph11"> A good paddy crop, 150-175 kg of nitrogen from one hectare of land,
+        Contains 20-30 kg of phosphorus, 200-250 kg of potash and other nutrients.
+        By using both biological and biological resources to supply nutrients, the fertility of the land remains sustainable.
+        There is also an expected increase in the yield of paddy. </string>
+
+
+    <string name = "ph12"> Weeds are plants that grow with the crop in the field, regardless of where they are. Paddy fields are mainly sandwiches,
+        Weeds like Motha, Dube, Kanakaua, Karga (wild paddy) etc. are multi-grown which provide nutrients, moisture, along with the crop.
+        Competition for light and space weakens the crop, which adversely affects production and quality.
+        30-90% in high land paddy (Biasi and Qatar Bony), 30-50% in low and submerged land (Lehi) and Ropa
+        In the method 15–20 percent yield loss is caused by weeds. Timely increase in paddy yield due to poor control
+        Can be done. </string>
+
+
+    <string name = "ph13"> Water management in Ropa method
+
+        Do not keep more than 1-2 cm of water in the field planted at the time of planting, so that the field is not allowed to dry after planting.
+        For a week after transplanting, the water level in the field is 1-2 cm. The saplings are planted quickly. Plant setting
+        After the shallow water level is 5-7 cm until the eruption stage is complete. Keep it till 5-7 cm when there is excess rainfall. From
+        More water should be removed from the field. </string>
+
+
+    <string name = "ph14"> when and how to harvest
+
+        Different varieties of paddy can be ripened in about 100-150 days. Paddy is ripened after one month of shedding the paddy. when
+        If the grains become hard, the crop should be harvested. When the grains are overcooked, they begin to fall and their quality becomes defective.
+        The field should be dried 1-2 weeks before harvesting, so that the entire crop is uniformly ripe. Harvested or
+        Power is done by instruments.
+
+        Spread bundles of paddy to dry in the khaliyan and meddle with oxen.
+        Osai is done with the help of fan. Foot-operated Japanese paddy thresher is also used. </string>
+
+    <string name = "ph15"> Yield and storage: 25-30 q / ha from native paddy varieties. 15-20 quintals of potted rice.
+        And 50-80 quintal / ha from dwarf improved varieties of paddy. The yield can be obtained. Dry the skin well in the sun
+        And both should be stored at 12-13 percent humidity in air and moisture free place. Rice is prepared by crushing paddy.
+        The rice pulverizer is called power rice halter. It gives 66-67 percent rice, while 70 percent rice is obtained by hand-harvesting.
+        Often the ratio of peels and rice is 1: 2. </string>
+
+    <string name="title_activity_show_rates">ShowRates</string>
+    <string name="title_activity_survey">Survey</string>
+    <string name="title_activity_horticulture">Horticulture Crops</string>
+    <string name="crops_production_title">Crops</string>
+    <string name="bazaar_title">Bazaar Rates</string>
+    <string name="production_details_title">Production Details</string>
+    <string name="crop_detail_title">Crop Detail</string>
+    <string name="title_activity_web">Scheme Details</string>
+
+    // string of Horticulture related
+<!--    <string name="mango_title_hi">आम की खेती</string>-->
+    <string name="mango_title_en">Mango Production</string>
+
+    <string-array name="headings_m_b">
+        <item name="mh1">1. Introduction </item>
+        <item name = "mh2"> 2. Climate and Land </item>
+        <item name = "mh3"> 3. Species </item>
+        <item name = "mh4"> 4. Precautions in preparing pits </item>
+        <item name = "mh5"> 5. Amplification or propagation </item>
+        <item name = "mh6"> 6. Manure and Fertilizer </item>
+        <item name = "mh7"> 7. Irrigation Time </item>
+        <item name = "mh8"> 8. Weeding and Weed Control </item>
+        <item name = "mh9"> 9. Disease and Control </item>
+        <item name = "mh10"> 10. Pests and their control </item>
+        <item name = "mh11"> 11. Fruit break time </item>
+        <item name = "mh12"> 12. Yield </item>
+    </string-array>
+
+    <string name="md1">Mango is cultivated almost all over the country. It is considered to be the very beloved fruit of man.
+        Sweeteners are found. According to different species, more sweetness is found in fruits. Raw mango sauce
+        Ethics is used as a variety of drinks. It makes jelly jam syrup etc. It is used in vitamin A.
+        Is a good source.</string>
+
+    <string name="md2">What kind of climate and land are required for mango cultivation?
+    Mango is cultivated in both hot and temperate climates. Mango is cultivated from sea level.
+    For the height of 600 meters is successful, for this the temperature of 23.8 to 26.6 degree centigrade is very good.
+    It is possible that mango can be cultivated in every type of soil, but more sandy, rocky, alkaline and water.
+    It is not beneficial to grow it in land filled with filler, and loam land with good drainage is considered the best.
+    </string >
+
+    <string name="md3">What are the advanced species before planting mango tree?
+        Varieties grown in our country include Dussehari, Lagda, Chausa, Fajri, Bombay Green, Alphonso, Totapari, Himsagar, Kishanbhog,
+        Neelam, Suvarnarekha, Vanraj etc. are the major growing species.</string>
+
+    <string name="md4"> Rainfall is considered suitable for planting mango trees all over the country. In areas where there is excess rainfall
+        There is a mango orchard to be planted at the end of the rains. About 50 cm diameter one meter deep pit should be dug in the month of May.
+        Approximately 30 to 40 kg per pit of rotten cow dung mixed with soil and 100 kg chlorpyrifas powder burr
+        The pit should be filled. According to the variety of plants, the distance from plant to plant should be 10 to 12 meters, but of Amrapali variety.
+        For this distance should be only 2.5 meters.</string>
+
+    <string name="md5">Mango seedlings are sown in June-July to prepare mango seeds.
+         Among the methods, Bhat Kalam, Vinier, Softwood Grafting, Prankur Kalam, and Budding are prominent, by Vinier and Softwood Grafting.
+         Good quality plants are prepared in a short time.</string>
+
+    <string name="md6">The age coefficient of Bago per annum, nitrogen, potash and phosphorus each year
+    100 grams per tree should be given in July in a drain made around the tree. In addition, the physical and soil content
+    To improve the chemical condition, it has been found appropriate to give 25 to 30 kg of dung rotten manure per plant.
+        In July-August, production of 250 grams of Azospirillum mixed with 40 kg of cow dung in the basin has been increased.</string>
+
+    <string name="md7">The first year of planting the garden for mango crop should be irrigated at intervals of 2-3 days as per the requirement of 2 to 5 years
+        But at the interval of 4-5, it should be done as per the requirement. And when the trees start bearing fruit then it is very important to irrigate two to three.
+        After the first irrigation fruit, the second irrigation fruit should be in the same condition as a glass tablet and the third irrigation must be done in full growth.
+        Should be done by irrigation channels in the basins to save water.</string>
+
+    <string name = "md8"> To keep the mango orchard clean, weeding should be done twice a year in weeding and weeding it.
+        And underground pests are destroyed along with grass should be released from time to time.</string>
+
+    <string name = "md9"> Mango diseases are managed in many ways like the first mango orchard in the mildew. This is a disease
+        In the same way, it is also possible to cure Khara or Dahiya disease. To avoid them, soluble sulfur in 2 grams per liter water
+        Trimorph 1 ml per liter of water or Dinocap 1 ml per liter of water and the first sprinkling immediately after blossom.
+        After 10 to 15 days and third spraying should be done after 10 to 15 days of mango crop anthracnose phoma blight dieback
+        And to protect against rudder, dissolve the copper oxychloride in 3 grams per liter of water and start the rainy season at 15 days interval
+        Should be two sprinkles and 2-3 sprinkling in October-Nov </string>
+
+    <string name = "md10"> Mango moth, Gujhiya moth, Mango mango trunk and Stem catcher, Mango fly
+        This is a pest. To protect the mango crop from pest control, first spraying of Amidachlorpid in 0.3 ml per liter of water
+        Flowers are done before they bloom. Second spraying is done when the fruit is equal to peas, then carburil is added to 4 grams per liter of water.
+        Sprinkling should be done. Similarly, to protect mango crop from Gujhiya pest, around the mango stem in the first week of December.
+        Give deep plowing, and give 200 grams of chlorpyrifas powder per tree trunk, if the insect has climbed the tree, then amidachlorpid
+        After spraying 0.3 ml per liter of water, 2 sprinkles should be done at 15 days intervals in the month of January </string>
+
+    <string name = "md11"> Mature mango pods should be weighed with 8 to 10 mm long stalks, causing stem rot disease on the fruits.
+    There is no danger of planting. Do not let the fruits get hurt during the harvesting, and avoid contact with soil.
+    Should be done on the basis of their species, size, weight, color and pattern.
+    </string>
+    <string name = "md12"> On the complete management of diseases and pests, yield of about 150 kg to 200 kg can be obtained per tree.
+    </string>
+
+<!--    <string name="banana_title_hi">केला की खेती</string>-->
+
+    <string name="banana_title_en">Production Method of Banana</string>
+
+    <string name="bd1">Banana is the oldest delicious nutritious and popular fruit of the year, in every country in our country.
+        Banana trees are found in it, sugars and mineral salts like calcium and phosphorus are found in abundance. Use of fruits
+        Apart from making raw vegetables for cooking, it is less to make flour and to make chips. Its cultivation is done almost all the year of India.
+        Is done in I </string>
+
+    <string name = "bd2"> Warmer and even climate is good for banana cultivation, banana cultivation successful in areas with high rainfall
+        The loam and mattiar loam land containing fossil remains, so that drainage is considered to be suitable, PH value of the land is up to 6-7.5
+        It is suitable for cultivation.</string>
+
+    <string name="bd3">Advanced species of banana are found in two types of fruit-eating variety, pulp is soft, sweet and starchy.
+        It is free from fats like Basrai, Dwarf, Green Bark, Salbhog, Alpan, Rowst and Puvan etc.
+        In these varieties, the rectum is starchy and the fruits are thick like Kothaya, Battisa, Munthan and Campirganj. </string>
+
+    <string name = "bd4"> Preparation of field: The plowed field should be made brown to brown by plowing 4-5 deep in Uttar Pradesh in May.
+        Preparation of the field should be done, after this, in the flat field, the pits are prepared and planted in lines. </string>
+
+    <string name = "bd5"> In plantation , banana planting is done by the puttis, three-month long sword-float in which Ghanakanda is complete
+        Growing leaves are used for planting from 15-30 June. Leaves of these leaves are cut and ready to be planted.
+        Watering is necessary after planting in the pits.</string>
+
+    <string name="bd6">According to the fertility of the land, 300 grams of nitrogen per plant requires 100 grams of phosphorus and 300 grams of potash.
+    It is found that half the amount of phosphorus should be given at the time of planting and the remaining half after transplanting by dividing the entire amount of nitrogen in 5 parts.
+    </string>
+
+    <string name = "bd7"> Moisture should remain in the banana orchard. Irrigating after planting is very important. Summer
+    Season should be irrigated at intervals of 7 to 10 days and in winter from 12 to 15 days from October to February.
+    By June, if the laying of Puval sugarcane leaves or polythene etc. on the banana plant keeps the moisture safe, the amount of irrigation
+        It is also halved with increase in yield and quality.</string>
+
+    <string name = "bd8"> Within two months of planting the banana, new leaves come out from the side.
+        After two months of planting, it should be pruned and cut from the soil with a 30 cm diameter 25 cm high platform.
+        This gives support to the plant, as well as making bamboo  catches and supporting the plants from both sides so that the plant cannot fall.</string>
+
+    <string name="bd9">Many diseases in banana crops are caused by fungi and viruses such as foliage spots or leaf spots, bunch heads or bunches, anthracnose.
+        And for control of tanagallan heart rate etc., copper containing chemicals like copper oxychlorite should be sprayed with 0.3% or
+        Monocrotophos should be sprayed with 1.25 ml per liter of water. </string>
+
+    <string name = "bd10"> Bananas contain many insects such as banana leaf beetil (banana beetil), stem beetil etc. to control methyl
+    O -dimetan 25 EC should be sprayed after dissolving in 1.25 ml per liter of water. I or carbofuran or phorate or thymate 10 g granular
+        Insecticide should use 25 grams per plant.</string>
+
+    <string name = "bd11"> After the flowering in the banana, the pod comes out in about 25-30 days after the entire pod comes out from the next part of the house
+        Male flowers should be cut and fruits are ready after 100-140 days after the entire legumes are released, when all the four houses of the legumes are not sticky.
+        When it starts yellowing with roundness, the fruits are fully developed and ripening, on this condition, by cutting the ghar using sharp-edged knives, etc., separate from the plant.
+        Should be done.I</string>
+
+    <string name="bd12">Banana cultivation done by adopting all technical methods yields 300 to 400 quintals per hectare </string>
+
+
+    <string name = "gd1"> Guava is called guava in English. Botanical name Cedium guaiava, species cedium, genus Guaiava, total soil).
+        Scientists think that guava originated in the tropical part of America and the West Indies. It dissolves so much in the climate of India
+        It has been found that it is cultivated here very successfully. It is learned that it was brought to India in the 17th century. More tolerant
+        Due to its successful cultivation, it can be done in many types of soil and climate. Guava fruit has an important place in tree gardening. Considering its multi-utility and nutritional
+        People keep it called apple of the poor. Vitamin C is found in plenty in it. Preserved substances like jam, jelly, nectar etc. are made from it. </string>
+
+    <string name="gd2">Successful cultivation of guava can be successfully carried out in hot climatic and subtropical climates. Hot zone
+        The fruits are grown throughout the year when sufficient quantity of temperature and humidity is available in them. Areas with excess rainfall exceeding 1245 cm
+        Its not suitable for gardening. Small plants have frost effect. While full grown plants have temperatures up to 44 ° C
+        Can bear easily. Guava can be grown in almost every type of land. But fertile sandy loam land is good in good production. Loamy soil
+        It can also be grown successfully at pH value of 4.5 and 8.2 pH value in limestone soil. </string>
+
+    <string name = "gd3"> Many varieties of guava are prevalent such as Allahabad safeda, Sardar (Lucknow-49), Sebnuma Guava (Apple Color Guava)
+    , Allahabad Surkha, Behat is coconut and fine. Allahabad Allahabad Safeda and Sardar is called Lucknow-49,
+        Is particularly noted for its taste and result.</string>
+
+    <string name = "gd4"> To plant its plant first 60 cm width, 60 cm length, 60 cm depth by preparing pits of 20-25 kg
+    Mix 250 grams of super phosphate and 40-50 grams of falsidal washed in the top soil and fill the pit and irrigate it.
+        According to the pindi of the plant, dig the pit and put it in the middle and press it well on all four sides and then irrigate it.</string>
+
+    <string name="gd5">July, August and September are considered suitable for planting plants where there is no irrigation problem.
+        Planting of guava saplings can also be done there in February-March, 5 m from the line and 5 m from the saplings.
+        Planting can be done at a distance of 6 meters and plant 6 meters from plant </string>
+
+    <string name = "gd6"> When preparing the pit before planting, add 20 to 25 kg rotten manure compost per pit.
+        Planting is done in this area, after this, fertilizer is given every year for 5 years like 15 kg on one year old plant.
+        Dung manure, 260 grams of urea, 375 grams of super phosphate and 500 grams of potassium sulphate. Similarly, 30 kg for a two-year-old plant
+        Dung manure, 500 grams of urea, 750 grams of super phosphate and 200 grams of potassium sulphate. 45 kg of cow dung for a three-year-old plant
+        Compost, 780 grams of urea, 1125 grams of super phosphate and 300 grams of potassium sulfate I and 60 kg of cow dung for four years old plant,
+        1050 grams of urea, 1500 grams of super phosphate and 400 grams of potassium sulphate. Similarly 75 kg cow dung manure for five years old plant,
+        1300 grams of urea, 1875 grams of super phosphate and 500 grams of potassium sulfate are required </string>
+
+    <string name = "gd7"> It is very important to concentrate on irrigation in guava production. Irrigation of small plant in Sharad Ritu 15 days interval
+        But it should be done at the interval of 7 days in summer but irrigated as needed when grown up.</string>
+
+    <string name="gd8">In the production of guava, initially the intensive action trees are grown to make a beautiful and strong structure.
+    Initially, no branches should be allowed to rise up to a height of 90 cm from the ground in the main trunk, after which three or four branches should be increased.
+    After this, twigs should be cut from above every second or third year so that the height of trees is not high.
+        If any erosion or fortification comes out from the root, it should also be cut.</string>
+
+    <string name = "gd9"> In Guava, disease and black color, fruit melting or twig kill the field for control.
+        Clean and clean water should not be used, use of fertilizers and such trees should be uprooted and separated.
+        For diseases, cutting of diseased branches, spraying 0.3% copper oxychloride solution at two or three 15-day intervals
+        Should do </string>
+
+
+    <string name = "gd10"> Guava crop implements butterflies and barkers, fruit bearing fruit copy for control of butterflies.
+        If the day should be collected and destroyed, if possible, do not take the rainy crop and 500 ml liter of Malathion 50 BC
+        Mix 5 kg of good or sugar with 500 liters of water and sprinkle it per acre at 7 to 10 days interval.
+        Get 10 ml of monocrotophos or 10 ml of metacid (methyl parathion) for Sudi in September October
+        Mixed with water, the stem of the bark of the stem should be applied around the bark so that the insect does not affect.</string>
+
+    <string name="gd11">Guava fruit with a little stalk and one or two addresses
+        You should cut it and most of the half-baked fruits are liked in the meal. Tudai should be done at the interval of two days.</string>
+
+    <string name = "gd12"> After two years of planting the fruits start getting fruit, if trees are looked after properly
+        Trees remain in the state of production for 30 to 40 years, the quantity of yield obtained according to the particular climate and age of the tree
+        Even then there are about 400 to 600 good fruits from a tree aged 5 years.</string>
+
+    <string-array name="headings_g">
+        <item name="mh1">1. Introduction </item>
+        <item name = "mh2"> 2. Climate and Land </item>
+        <item name = "mh3"> 3. Species </item>
+        <item name = "mh4"> 4. Preparation of field </item>
+        <item name = "mh5"> 5. Plantation </item>
+        <item name = "mh6"> 6. Manure and Fertilizer </item>
+        <item name = "mh7"> 7. Water Management </item>
+        <item name = "mh8"> 8. Weed Management </item>
+        <item name = "mh9"> 9. Disease Management </item>
+        <item name = "mh10"> 10. Pests and their control </item>
+        <item name = "mh11"> 11. Fruit break time </item>
+        <item name = "mh12"> 12. Yields </item>
+
+    </string-array>
+
+    <string name = "ah1"> 1. Introduction </string>
+    <string name = "ah2"> 2. Climate and Land </string>
+    <string name = "ah3"> 3. Species </string>
+    <string name = "ah4"> 4. Preparation of field </string>
+    <string name = "ah5"> 5. Seed sowing </string>
+    <string name = "ah6"> 6. Manures and Fertilizers </string>
+    <string name = "ah7"> 7. Water Management </string>
+    <string name = "ah8"> 8. Disease Management </string>
+    <string name = "ah9"> 9. Pests and their control </string>
+    <string name = "ah10"> 10. Harvesting </string>
+    <string name = "ah11"> 11. Yields </string>
+
+    <string name = "ad1"> Arhar can be cultivated either alone or as a co-cultivation with other crops,
+        Most jowar millet maize soybean can be cultivated as a cohesive crop. </string>
+
+    <string name = "ad2"> For cultivation of pigeonpea, the temperate climate plus temperature of 30 degree centigrade at the time of wowing is very high
+        It is necessary that for good yield of pigeonpea, loam or sandy loam soil is considered good </string>
+
+    <string name = "ad3"> Two types of improved species are grown for the cultivation of pigeonpea. The first is early species, which includes advanced species Paras, type 21, Pusa 92, Upas 120, second late or late ripening species. Is outside, immortal,
+        Pusa is 4, Narendra Arhar 1 is Azad Arhar 1, Malaviya Bahar, Malaviya Miracles which are known as late maturing species </string>
+
+    <string name = "ad4"> The first plowing of the field needs to be done with a soil invert, followed by two to three plows.
+        It is necessary to do with cultivator, then after last plowing, mix 200-300 quintal dung manure
+        Is very important.</string>
+
+    <string name="ad5">There are early ripening species of pigeonpea, in them 15 to 20 kg of seed is sufficient for one hectare,
+        Similarly, for late ripening species, 12 to 15 kg of seed is sufficient for one hectare.
+        In the lines, you should follow the plow, for the fast ripening species of line from line to line, 75 centimeters from plant to 20 cm
+        In this way, the late ripening species can do 60 centimeters of the line in it, and from the plant
+        The distance of the plant can be 30 centimeters.</string>
+
+    <string name="ad6">One should think about fertilizer and fertilizer only after conducting soil test, manure can be used during the preparation of the field,
+        If fertilizer is used as 15 kg nitrogen 40 kg gram phosphorus and 20 kg gram potash element, it is very good,
+        Half the amount of nitrogen and full quantity of phosphorus potash should be used while preparing the field, the remaining half the amount of nitrogen
+        25-30 days after sowing as a toppressure in a standing crop, yields are good </string>
+
+    <string name = "ad7"> In case of pigeonpea cultivation, late farming in the month of October is required in the months of December and January
+        According to the need, irrigation should be done.</string>
+
+    <string name = "ad8"> It mainly treats Ukutaha and Vanja disease, for this treatment, the seeds are given 3 grams of Thiram and 1 gram of Carabandazin.
+        One kilo gram seed should be sown before sowing and it can get rid of rheumatic disease. </string>
+
+    <string name = "ad9"> Arhar fruit mainly affects the crop of legume leaf wrap wraps, fruit of this crop, for its treatment.
+        S36EC dissolve in 1000 liters of water and sprinkle it can get rid of this disease </string>
+
+    <string name = "ad10"> The early ripening species of pigeon are harvested from 180 days to 150 days after harvesting, ie from November 15 to January 15, the late ripening species which are grown by farmer brothers,
+        Harvesting of that crop is done between 240 and 280 days, ie March 15 to April 15. </string>
+
+    <string name = "ad11"> The yield of the early ripening species of pigeon can be obtained from 14 to 20 quintals.
+        From which the late ripening species can get 25 to 30 quintals from that crop. </string>
+
+    <string-array name = "problems">
+        <item> Disease and Pest Control in Crop </item>
+
+        <item> Best insecticides </item>
+
+        <item> Diseases and diagnosis in Maize crop </item>
+
+        <item> Dangerous pests and its control </item>
+
+    </string-array>
+
+    <string name = "prob1">
+        Content \ n
+
+        Gaumutra \ t 10 li. (Native cow) \ n
+
+        Cow dung \ t 5 km G. \ N
+
+        Turmeric \ t 250 grams \ n
+
+        Garlic paste \ t 250 grams \ n
+
+        Water \ t 5 liters \ n
+
+        Mix all the ingredients and keep them in a plastic container for 25-30 days. After that it took 150-200. Water and 1 li. Spraying the crop after 20 days of planting and 15 days before flowering by mixing milk.
+
+       \ n \ t1 kg 1 basil leaves in basil. Boil after adding water. When half the water remains, then filter the basil leaves and reheat it. When the water remains 100-150 grams, stop boiling. Spray it on crops suffering from scorching and fungal diseases.
+
+        Mix wood ash, sand, paddy husk in neem oil or kerosene in a ratio of 5: 1 and keep it for 12 hours. After this, spray the field. Due to its spraying, the insects escape from the fields.
+
+       \ n \ t1 kg Powder of tobacco leaves 20 kg Sprinkle in the field before sowing or planting seeds mixed with wood ash.
+
+       \ n \ t1 kg Take 10 leaves of tobacco. Heat it in water. After cooling, it contains 250 grams of lime and 500 milliliters. Add kerosene. It took 20 lbs. Add 100 grams of soap solution to the water and spray it with termites to protect the crop.
+
+        \ n1 \ t li. Take 12 in milk. Add water Spray 50 grams basil or vine juice at 15-20 days interval. It is very beneficial in fungal diseases.
+
+        \ n \ tPaddy husk 5 kg, 2 l. Whey, 2 km Mix gram, sesame leaves, 6 grams of urine and keep in a plastic vessel for 7-10 days. Then took 40 lbs. Add water and sprinkle seeds in the field before sowing or planting. It is very useful in chilli and brinjal.
+
+        Sowing too late causes diseases and pests more on the crop and production is reduced. Water should not be stored in the field for a long time. This increases the chances of getting many diseases and pests. Water should be kept out of the field on time so that air can flow properly in the ground. Due to this the plants grow well and their disease resistance also increases.
+    </string>
+
+    <string name="prob2">
+       An invaluable day of nature is neem plays an important role in people\'s daily life.
+        Neem is a medicine and also an effective pesticide compared to modern toxic pesticides.
+        Is a best insecticide. From storage of grains, protection from termites to all kinds of plant diseases
+        People still use it in various ways. If the farmers get the support of scientists in this area, then
+        This single tree can close pesticide factories around the world.
+
+        \ n \ t According to the latest information, pesticides extracted from neem leaves control 300 varieties of insect species.
+        can be done. Not only this, neem products also control about a dozen varieties of harmful formulas and some fungi.
+        can be done. In India alone, there are more than 110 such insect species that can be controlled with neem. This neem
+        Its insecticidal properties are amazing that Neem is the most patented in Indian herbs and medicinal plants. Still on neem
+        The US has 54, Japan 59, England 6 and India 36 product and process patents. Despite this, neem in many countries of the world
+        Research on. Looking at its properties, Australia, Africa, Caribbean Islands, Puerto Rico, Virgin Islands and
+        Neem trees are being planted in abundance in Haiti etc. countries. Neem exports from India have been steadily increasing.
+
+    </string>
+
+    <string name = "prob3">
+
+        Sugarcane is mainly grown as a cash crop in our country,
+        Which is cultivated in about 3 million hectares of land per year, in this country
+        The average yield is 65.4 tonnes per hectare, which is quite low, mainly by sugarcane.
+        Sugar and good are made. In Uttar Pradesh and especially in western Uttar Pradesh, most of the cultivation is sugarcane.
+        In such a situation, it is very important for the farmers to know what diseases can ruin the sugarcane crop and what can the farmers do to prevent them!
+
+       \ n Major Pests / Diseases
+
+       \ n 1. Sprout borer
+
+        \ n It has an outbreak for four months from germination in areas with subtropical climate. Its larvae pierce the growth points and make them dead center, which smells like vinegar.
+        \ n Prevention
+
+        \ n • Sugarcane prone to seedling sprout should be removed and destroyed.
+        \ n • Under Integrated Radiation Management, 10 cards per hectare of Trichogramma kelonis should be used or
+        \ n • A mixture of 75 kg of cow dung should be used at the rate of 2.5 kg per hectare of metaragium anisoply.
+        \ n • For chemical control, one of the following insecticides should be used.
+        \ n • Chlorpyrifas 20 per cent E.C. 1.5 liters per 800-1000 liters of water should be sprayed or
+       \ n • Carbofuran should be burnt at the rate of 3 kg per kg of CG 30 kg / ha or
+       \ n • Fipronil at the rate of 2.5 kg per ha of 0.3 per gram of GR or
+       \ nFort 10 per kg cg 30 kg per hectare should be burnt.
+
+       \ n 2. Agole rot
+       \ n (July to September)
+        \ n The new leaves above initially turn light yellow or white which later rot and fall down. This disease occurs more during the rainy season and adversely affects the growth of sugarcane.
+        Prevention
+
+        \ n • Only disease resistant species should be used. If any seeds show redness on the cut ends or lumps of sugarcane, then such a set should not be used.
+        \ n • Healthy seed sugarcane should be sown. Whose seeds have been pre-treated with humid hot air treatment method (at 54 ° C to 99 hours humidity).
+        \ n • In the selection of fields for nurseries, proper drainage system should be ensured. So that there is no accumulation of water during the rainy season.
+       \ n Trichoderma at the rate of 2.5 kg per hectare should be used by mixing 75 kg of adorned dung with compost or
+        Pseudomonas fluorescence @ 2.5 kg per hectare should be mixed with 100 kg of dung compost.
+
+        \ n4. Kadua Disease (Whip Kadua)
+       \ n (April to May)
+
+
+
+    </string>
+
+    <string name="prob4">
+
+       Termites are one of the most harmful pests in the tropics and have a lot of problems in agriculture,
+        Can produce. A group of termite insects has 2500 species. Their nests are underground,
+       \ n Following are some measures to prevent this
+
+       \ n 1- Matka Method: -
+           \ n Required Materials
+               \ n \ t 1-corn  kernels
+               \ n \ t 2-clay pitcher
+                \ n \ t 3- cotton cloth
+
+            \ n experiment method
+          \ n \ t After the corn shoots, the gills that survive
+            Is (eight to ten gills) gathered in a clay pitcher, put it in the pitcher and tie a perforated cotton cloth on the mouth of the pitcher, then make it in the field, such that the pitcher\'s mouth is 1 inch above the ground.
+            After a few days a lot of termites come in the pit, after that, heat the pitcher so that the termite is finished.
+            In this type of pitcher field, bury 15 to 20 places and replace the gills 3 to 5 times.
+       \ n \ n 2-organic solution
+           \ n Required Materials
+          \ n 1 - 3-5 kg ​​karanja leaves
+            \ n 2-3 kg neem leaves
+           \ n 3 - 1 kg castor oil
+          \ n 7-10 liter cow urine
+          \ n 5- 2 kg white metal leaves
+           \ n 4-5 grams of surf
+
+           \ n USE METHOD
+           \ n Mix 150 ml of solution in 14 liters of water and sprinkle it in the roots or use as needed.  </string>
+    <string name="problem_title">Problems and Solution</string>
+    <string name="treatment_detail_title">Treatment</string>
+    <string name="title_activity_state_department">State Agriculture Department</string>
+    <string name="title_activity_soil_health">Soil Health Card</string>
+
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="text_hello">Hello,</string>
+    <string name="text_title">Agricultural App</string>
+    <string name="example_domain_com">example@domain.com</string>
+    <string name="password">password</string>
+    <string name="already_a_member_login">Already a member? Login</string>
+    <string name="agrivet">Agrivet</string>
+    <string name="todo">TODO</string>
+    <string-array name="choice">
+        <item>Farmer</item>
+        <item>Seller</item>
+    </string-array>
+    
+</resources>
+
+
