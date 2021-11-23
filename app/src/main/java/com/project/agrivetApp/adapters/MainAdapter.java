@@ -1,5 +1,6 @@
 package com.project.agrivetApp.adapters;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 
 import androidx.recyclerview.widget.RecyclerView;
@@ -39,7 +40,7 @@ public viewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         }
 
 @Override
-public void onBindViewHolder(viewHolder holder, final int position) {
+public void onBindViewHolder(viewHolder holder, @SuppressLint("RecyclerView") final int position) {
         holder.englishText.setText(list.get(position).getEnglishText());
 //        holder.hindiText.setText(list.get(position).getHindiText());
        holder.imageView.setImageResource(list.get(position).getImageUrl());
