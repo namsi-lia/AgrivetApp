@@ -826,6 +826,7 @@
     <string name="already_a_member_login">Already a member? Login</string>
     <string name="agrivet">Agrivet</string>
     <string name="todo">TODO</string>
+    <string name="Agrivet">Agrivet</string>
     <string-array name="choice">
         <item>Farmer</item>
         <item>Seller</item>
