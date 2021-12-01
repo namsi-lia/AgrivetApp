@@ -34,12 +34,15 @@ public class MainActivity extends AppCompatActivity {
         //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);//confirm existence of id
         //setSupportActionBar(toolbar);
 
-        Intent[] links={
+
+            Intent[] links={
                 new Intent(MainActivity.this, CropProductionActivity.class),
                 new Intent(MainActivity.this, SelectProblem.class),
                 new Intent(MainActivity.this, Select_Policy.class),
                 new Intent(MainActivity.this, ChatbotActivity.class)
         };
+
+
 
         list = new ArrayList<>();
         for(int i=0;i<imageUrls.length;i++){
